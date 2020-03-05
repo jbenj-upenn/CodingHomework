@@ -10,8 +10,11 @@ See the ReadMe, probably.-->
     <title>What Horiseon Can Do For You</title>
 </head>
 
+<!--Change <div class="header"> opening and closing tags to the semantic elements <header> and </header>; in CSS, change
+.header to simply "header" in all instances.-->
+
 <body>
-    <div class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -26,11 +29,15 @@ See the ReadMe, probably.-->
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
     
+    <!--played around with changing this with no results-->
     <div class="hero"></div>
     
-    <div class="content">
+    <!--changed this to <article>, eliminated the CSS designation of .content and changed
+        it to article, no period in the front, and it seemed to work-->
+
+    <article>
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -52,8 +59,10 @@ See the ReadMe, probably.-->
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+    </article>
     
+<!--I keep forgetting to go back and forth between HTML and CSS, and I think that's a big part of why I can't successfully complete this.-->
+
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -80,7 +89,7 @@ See the ReadMe, probably.-->
         </div>
     </div>
     
-    <div class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
@@ -89,3 +98,5 @@ See the ReadMe, probably.-->
 </body>
 
 </html>
+
+<!--Bed time. I quit.-->
