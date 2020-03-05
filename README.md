@@ -1,2 +1,1 @@
-# CodingHomework Week 2
-This is a refactoring of a website. 
+Submitting homeworks for the Bootcamp at UPenn here. 
